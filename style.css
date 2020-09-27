@@ -1,0 +1,52 @@
+/* Monoton font - font-family: 'Monoton', cursive; */
+/* Roboto font - font-family: 'Roboto', sans-serif; */
+
+h1 {
+    font-family: 'Monoton', cursive;
+    color: dodgerblue;
+    font-size: 3.5em;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.container {
+    background-color: floralwhite;
+    margin: 0 auto;
+    width: 650px;
+    height: 850px;
+}
+
+table {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+thead, .first-column {
+    color: white;
+    font-size: 1.5em;
+    background-color: #a3cd50;
+    font-weight: 700;
+}
+
+.cross {
+    background-color: #5db44e;
+}
+
+th, td {
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+}
+
+td {
+    color: #1fa1d4;
+    background-color: #b4ddff;
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+td:nth-child(even) {
+    background-color: #d7eff0;
+}
