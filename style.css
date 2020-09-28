@@ -4,7 +4,7 @@
 h1 {
     font-family: 'Monoton', cursive;
     color: dodgerblue;
-    font-size: 3.5em;
+    font-size: 3.25em;
     font-weight: 200;
     text-align: center;
     margin: 0;
@@ -28,6 +28,7 @@ table {
     padding: 10px 0;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    border-spacing: 0;
 }
 
 thead, .first-column {
@@ -45,6 +46,7 @@ th, td {
     width: 38px;
     height: 38px;
     border: 1px solid white;
+
 }
 
 td {
